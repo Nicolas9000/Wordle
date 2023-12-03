@@ -1,0 +1,85 @@
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e3e3e1;
+  height: 100vh;
+}
+
+.icon {
+  height: 80px;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 44px;
+  line-height: 1.045em;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.second_title {
+  text-align: center;
+  font-weight: 400;
+  max-width: 365px;
+  font-size: 38px;
+  line-height: 44px;
+  margin-bottom: 36px;
+}
+
+.navbar {
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.light_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 3em;
+  border-radius: 1.5em;
+  letter-spacing: 0.05em;
+  margin: 0 10px 8px;
+  background: #e3e3e1;
+  color: #000;
+  line-height: 28px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  font-weight: 400;
+  border: solid black;
+  text-decoration: none;
+}
+
+.dark_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 3.1em;
+  border-radius: 1.5em;
+  letter-spacing: 0.05em;
+  margin: 0 10px 8px;
+  background: #000;
+  color: #fff;
+  line-height: 28px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.third_title {
+  display: block;
+  letter-spacing: 0.005em;
+  font-family: "nyt-franklin";
+  font-weight: 600;
+}
+
+.text {
+  display: block;
+  letter-spacing: 0.005em;
+}
