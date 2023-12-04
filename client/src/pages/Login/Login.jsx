@@ -3,6 +3,7 @@ import AuthForm from "../../components/AuthForm/AuthForm";
 import AuthService from "../../services/auth/AuthService";
 import { useNavigate } from "react-router-dom";
 import CookieService from "../../services/cookie";
+import styles from "./Login.module.css";
 
 function Login() {
   const [disabled, setDisabled] = useState(false);
@@ -23,7 +24,12 @@ function Login() {
     }
   }, []);
 
-  return <AuthForm onSubmit={onLogin} disabled={disabled}/>;
+  return (
+    <div>
+      <h1 className={styles.title}>Login</h1>
+      <AuthForm onSubmit={onLogin} disabled={disabled} />
+    </div>
+  );
 }
 
 export default Login;
