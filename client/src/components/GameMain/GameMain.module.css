@@ -79,3 +79,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.text {
+  font-size: 22px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  margin-bottom: 3%;
+}

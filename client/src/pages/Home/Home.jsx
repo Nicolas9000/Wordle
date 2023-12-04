@@ -21,8 +21,7 @@ function Home() {
       <h2 className={styles.second_title}>Get 6 chances to guess a 5-letter word.</h2>
 
       <nav className={styles.navbar}>
-        <Link className={styles.light_button}>How to play</Link>
-        <Link className={styles.light_button}>Log in</Link>
+        <Link to="/login" className={styles.light_button}>Log in</Link>
         <Link to="/game" className={styles.dark_button}>Play</Link>
       </nav>
 

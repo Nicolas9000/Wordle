@@ -1,0 +1,22 @@
+.toast_container {
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  pointer-events: none;
+  width: fit-content;
+}
+.toast {
+  position: relative;
+  margin: 16px;
+  background-color: #121212;
+  color: #fff;
+  padding: 13px;
+  border: none;
+  border-radius: 4px;
+  opacity: 1;
+  transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}

@@ -6,6 +6,7 @@ require("dotenv").config();
 const db = require("./models");
 
 const AuthRoute = require("./routes/auth.routes");
+const UserRoute = require("./routes/user.routes");
 
 const app = express();
 const port = process.env.PORT || 3001;
@@ -29,6 +30,7 @@ app.use((req, res, next) => {
 
 
 app.use("/api", AuthRoute);
+app.use("/api", UserRoute);
 
 
 app.listen(port, () => {
