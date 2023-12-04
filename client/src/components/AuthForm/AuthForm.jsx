@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
@@ -13,7 +13,7 @@ const schema = yup
   })
   .required();
 
-function AuthForm({ onSubmit, isRegisterPage = false }) {
+function AuthForm({ onSubmit, isRegisterPage = false, disabled }) {
   const {
     register,
     handleSubmit,
@@ -67,7 +67,7 @@ function AuthForm({ onSubmit, isRegisterPage = false }) {
           </Link>
         </div>
 
-        <button type="submit">Submit</button>
+        <button disabled={disabled} type="submit">Submit</button>
       </form>
     </div>
   );

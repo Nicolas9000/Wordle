@@ -35,3 +35,10 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.link {
+  text-decoration: none;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
